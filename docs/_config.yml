@@ -8,6 +8,7 @@ baseurl: ""
 github_repo: "https://github.com/sridharmallela/sridharmallela.github.io.git"
 github_main: "https://github.com/sridharmallela"
 author: "Sridhar Mallela"
+npm: "https://www.npmjs.com/~tpt2dfw"
 
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown

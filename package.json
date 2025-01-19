@@ -1,0 +1,28 @@
+{
+  "name": "sridharmallela.github.io",
+  "version": "0.0.1",
+  "description": "github pages default base",
+  "author": "Sridhar Mallela",
+  "license": "MIT",
+  "homepage": "https://sridharmallela.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sridharmallela/sridharmallela.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sridharmallela/sridharmallela.github.io/issues"
+  },
+  "config": {
+    "unsafe-perm": true
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "commitlint-config-smallela": "^1.2.0",
+    "husky": "^9.1.7",
+    "is-ci": "^4.1.0",
+    "lint-staged": "^15.4.1",
+    "prettier": "^3.4.2",
+    "prettier-config-smallela": "^1.2.0"
+  }
+}

@@ -1,8 +1,8 @@
 # https://jekyllrb.com/docs/configuration/
 theme: jekyll-theme-midnight
 title: "Sridhar Mallela"
-description: "I am a Front-End / Full-Stack Developer. I like learning new technologies, continue challenging myself, and do interesting things that matter. Given that producing a modern website requires the combination of design, server technology, and the layer that users interacts with, I believe having experience in both design and development allows for making the most optimal user experiences.
-email: sridhar4coding@gmail.com"
+description: "I am a Front-End / Full-Stack Developer. I like learning new technologies, continue challenging myself, and do interesting things that matter."
+email: "sridhar4coding@gmail.com"
 url: "http://sridharmallela.github.io"
 baseurl: ""
 github_repo: "https://github.com/sridharmallela/sridharmallela.github.io.git"

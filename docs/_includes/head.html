@@ -12,9 +12,7 @@
 <meta property="og:url" content="https://sridharmallela.github.io/" />
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:description" content="{{ site.description }}" />
-<meta
-  property="og:image"
-  content="{{ '/img/apple-touch-icon.png' | prepend: site.baseurl }}" />
+<meta property="og:image" content="/img/apple-touch-icon.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:type" content="image/png" />
@@ -24,13 +22,11 @@
 <meta name="twitter:description" content="{{ site.description }}" />
 <meta property="og:type" content="website" />
 <title>{{ page.title }}</title>
-<link
-  rel="apple-touch-icon"
-  href="{{ site.baseurl }}/img/apple-touch-icon.png" />
-<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico" />
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+<link rel="shortcut icon" href="/img/favicon.ico" />
 <link
   rel="canonical"
-  href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
 <link
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
   rel="stylesheet"
@@ -50,6 +46,4 @@
   href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
   rel="stylesheet" />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
-<link
-  rel="stylesheet"
-  href="{{ '/css/main.min.css' | prepend: site.baseurl }}" />
+<link rel="stylesheet" href="/css/main.min.css" />

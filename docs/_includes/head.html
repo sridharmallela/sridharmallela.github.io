@@ -15,7 +15,7 @@
   <meta property="og:description" content="{{ site.description }}" />
   <meta
     property="og:image"
-    content="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" />
+    content="{{ '/img/apple-touch-icon.png' | prepend: site.baseurl }}" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:type" content="image/png" />
@@ -27,7 +27,7 @@
   <title>{{ page.title }}</title>
   <link
     rel="apple-touch-icon"
-    href="https://www.gstatic.com/images/branding/product/1x/google_fonts_64dp.png" />
+    href="{{ site.baseurl }}/img/apple-touch-icon.png" />
   <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico" />
   <link
     rel="canonical"
@@ -37,9 +37,6 @@
     rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous" />
-  <link
-    rel="stylesheet"
-    href="{{ '/css/main.min.css' | prepend: site.baseurl }}" />
   <link
     href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
     rel="stylesheet"
@@ -52,4 +49,12 @@
     src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
     crossorigin="anonymous"></script>
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS"
+    href="/atom.xml" />
+  <link
+    rel="stylesheet"
+    href="{{ '/css/main.min.css' | prepend: site.baseurl }}" />
 </head>

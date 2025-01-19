@@ -24,24 +24,10 @@
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
   <meta property="og:type" content="website" />
-
   <title>{{ page.title }}</title>
-
   <link
     rel="apple-touch-icon"
     href="https://www.gstatic.com/images/branding/product/1x/google_fonts_64dp.png" />
-  <link
-    rel="apple-touch-icon"
-    sizes="96x96"
-    href="https://www.gstatic.com/images/branding/product/1x/google_fonts_96dp.png" />
-  <link
-    rel="apple-touch-icon"
-    sizes="128x128"
-    href="https://www.gstatic.com/images/branding/product/2x/google_fonts_64dp.png" />
-  <link
-    rel="apple-touch-icon"
-    sizes="192x192"
-    href="https://www.gstatic.com/images/branding/product/2x/google_fonts_96dp.png" />
   <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico" />
   <link
     rel="canonical"
@@ -51,6 +37,9 @@
     rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous" />
+  <link
+    rel="stylesheet"
+    href="{{ '/css/main.min.css' | prepend: site.baseurl }}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -59,5 +48,9 @@
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
     crossorigin="anonymous"></script>
 </head>

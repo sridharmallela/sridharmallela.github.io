@@ -1,11 +1,12 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h4>
+      <h3>
         <a href="https://sridharmallela.github.io/">{{ site.title }}</a>
-      </h4>
+      </h3>
       <p class="lead">{{ site.description }}</p>
     </div>
+    <hr />
     <nav class="sidebar-nav">
       <a
         class="sidebar-nav-item{% if page.url == 'https://sridharmallela.github.io/' %} active{% endif %}"
@@ -22,6 +23,7 @@
       {% endif %} {% endif %} {% endfor %}
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
     </nav>
+    <hr />
     <p>
       &copy; Sridhar Mallela {{ site.time | date: '%Y' }}.
       <br />

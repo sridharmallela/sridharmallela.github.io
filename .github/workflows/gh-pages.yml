@@ -6,7 +6,6 @@ name: Deploy "sridharmallela.github.io" Pages
 
 on:
   push:
-    paths: ["docs/**"]
     branches: ["main"]
 
 permissions:
